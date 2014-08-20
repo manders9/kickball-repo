@@ -16,4 +16,10 @@ ul {
 li {
     /* Add a bit more spacing between list items. */
     padding: 5px;
+    text-align: left;
+}
+
+li > a {
+    color: #000000;
+    text-decoration: none;
 }
