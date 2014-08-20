@@ -20,3 +20,8 @@ li {
     text-decoration: none;
     list-style: none;
 }
+
+h3 > a {
+    text-decoration: none;
+    color: #000000;
+}
