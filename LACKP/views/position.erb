@@ -1,0 +1,29 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+    	<title>% @position %</title>
+      <link rel="stylesheet" href="/position.css" />
+    </head>
+    <body>
+    <h1><%= @position %></h1>
+    	<ul>
+    		<h2>First Name</h2>
+    		<%@players.each do |player|%>
+        		  <li><%=player["first_name"]%></li>
+            <%end%>
+        </ul>
+        <ul>
+        	<h2>Last Name</h2>
+    		<%@players.each do |player|%>
+        		  <li><%=player["last_name"]%></li>
+            <%end%>
+        </ul>
+        <ul>
+        	<h2>Team</h2>
+    		<%@players.each do |player|%>
+        		  <li><%=player["team"]%></li>
+            <%end%>
+        </ul>
+    </body>
+    <h3><a href="/mainpage"> Return to Home Page</h3>
+</html>

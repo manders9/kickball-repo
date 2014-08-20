@@ -1,0 +1,23 @@
+body {
+    /* Use a "Matrix"-style color scheme. */
+    background-color: white;
+    color: #000000;
+
+    font-family: monospace;
+    font-size: 1.5em;
+
+    margin-left: 100px;
+}
+
+ul {
+    display: inline-block;
+    width: 300px;
+}
+
+li {
+    /* Add a bit more spacing between list items. */
+    padding: 5px;
+    text-decoration: none;
+    text-align: left;
+    list-style-type: none;
+}

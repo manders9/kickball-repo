@@ -1,0 +1,24 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>League of Cool Kickball Professionals</title>
+      <link rel="stylesheet" href="home.css">
+    </head>
+
+    <body>
+      <h1>League of Cool Kickball Professionals</h1>
+    	<h2>Players By Teams</h2>
+    	<ul>
+        <%@teams.each do |team|%>
+    		  <li><a href="/team/<%=team%>"><%=team%></a></li>
+        <%end%>
+    	</ul>
+    	<h2>Players By Position</h2>
+    	<ul>
+        <%@positions.each do |position|%>
+    		  <li><a href="/position/<%=position%>"><%=position%><a/></li>
+        <%end%>
+    	</ul>
+
+    </body>
+   </html>
